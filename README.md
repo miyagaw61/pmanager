@@ -1,1 +1,1 @@
-# pmnager - Process manager witten in Rust
+# pmanager - Process manager witten in Rust
