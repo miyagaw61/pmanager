@@ -41,3 +41,18 @@ process kill command
 (e.g.)
 - `sudo systemctl stop foo`
 - `sudo pkill foo`
+
+## Cron
+
+You can register this to crontab.
+This is example to do every 5 second.
+
+```
+$ cat ~/for_cron.sh
+/path/to/pmanager 6 "export PATH=$PATH:/path/to; foo.sh" "sudo pkill -9 foo.sh"
+```
+
+```
+$ crontab -l
+* * * * * for i in `seq 0 5 59`;do (sleep ${i}; ~/for_cron.sh) & done;
+```
