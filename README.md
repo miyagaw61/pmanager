@@ -1,6 +1,6 @@
 # pmanager - Process manager witten in Rust
 
-This manages a heavy process. You can start/kill any process automatically. Check [here](https://qiita.com/miyagaw61/items/52270f8ef72d262920af) for details.
+This manages a heavy process. You can start/kill any process automatically. Check [here(Japanese)](https://qiita.com/miyagaw61/items/52270f8ef72d262920af) for details.
 
 ## Install
 
